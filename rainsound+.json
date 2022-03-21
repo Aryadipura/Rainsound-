@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rain sound",
+  "description": "Rainsound from Joaquín Vicente but with more volume option and different raind sound.",
+  "version": "1",
+  "author": "Arya",
+  "homepage_url": "https://github.com/Aryadipura/Rainsound-/tree/main",
+
+  "icons": {
+    "128": "images/128rain.png", 
+    "48": "images/48rain.png" 
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/19none.png", 
+      "38": "images/38none.png" 
+    }
+  },
+  "background": {
+    "scripts": ["rainsound+.js"] 
+  },
+  "offline_enabled": true
+}
